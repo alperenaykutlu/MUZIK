@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" lang="tr" />
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+  <div id="songList">
+    <h1>MÜZİKLERİM</h1>
+    <ul id="target-ul">
+
+    </ul>
+  </div>
+
+  <div id="hazne">
+    <h1>Şarkı Ekle</h1>
+    <button id="add-btn"><i class="fa-solid fa-plus"></i></button>
+
+    <div id="sparkle"></div>
+    <div id="sparkle"></div>
+    <div id="sparkle"></div>
+    <p id="songName">Seçili</p>
+    <div id="time">00:00/00:00
+
+      
+    </div>
+    <input type="range" min="0" value="0" step="1" id="sureGosterim">
+    <div id="alan">
+
+
+      <button id="back"><i class="fa-solid fa-backward"></i></button>
+      <button id="play" disabled><i class="fa-solid fa-pause"></i></button>
+      <button id="forward"><i class="fa-solid fa-forward"></i></button>
+      <button id="repeat"><i class="fa-solid fa-repeat"></i></button>
+      <button id="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+      <div id="volume">
+    <i class="fa-solid fa-volume-off"></i><input id="volumeControl" type="range" min="0" max="1" value="0.5" step="0.05"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
